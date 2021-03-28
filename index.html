@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>On Track</title>
+    <link href="style.css" rel="stylesheet" type="text/css" />
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
+    <link rel="website icon" href="images/calendar.ico"/> 
+    
+  </head>
+
+  <body>
+
+
+    <div class="banner" id="myHeader">
+      <div class="banner-content">
+      Time is Ticking! 
+      <div id="clock"> </div>
+      </div>
+    </div>
+ 
+
+    <h1>ON TRACK</h1>
+
+
+    <form id="addtask">
+        <h2>Add Resolution</h2>
+        <label for="task">Resolution: </label>
+        <input type="text" name="task" id="tasktitle">
+        <br>
+        <label for="dueDate">Achieve goal by: </label>
+        <input type="date" id="dueDate" name="trip-start"><br>
+        <label for="detail">Details:</label>
+        <br>
+        <textarea name="detail" id="detail" rows="4" cols="50" style="white-space: pre-line;"></textarea>
+        <br>
+        <label for="color">Color Code:</label>
+        
+        <input type="color" name="color" value="#F0CBE1" /> 
+
+        <br>
+        <input type="submit" id="btn" value="Add">
+    </form>
+
+
+    <div class="grid-container">
+        <div class="content">
+            <button type="button" class="collapsible-1">January</button>
+            <div class="container" id="container0">
+            </div>
+        </div>
+        <div class="content">
+            <button type="button" class="collapsible-1">February</button>
+            <div class="container" id="container1">
+            </div>
+        </div>
+        <div class="content">
+            <button type="button" class="collapsible">March</button>
+            <div class="container" id="container2">
+            </div>
+        </div>
+        <div class="content">
+            <button type="button" class="collapsible">April</button>
+            <div class="container" id="container3">
+            </div>
+        </div>
+        <div class="content">
+            <button type="button" class="collapsible">May</button>
+            <div class="container" id="container4">
+            </div>
+        </div>
+        <div class="content">
+            <button type="button" class="collapsible">June</button>
+            <div class="container" id="container5">
+            </div>
+        </div>
+        <div class="content">
+            <button type="button" class="collapsible">July</button>
+            <div class="container" id="container6">
+            </div>
+        </div>
+        <div class="content">
+            <button type="button" class="collapsible">August</button>
+            <div class="container" id="container7">
+            </div>
+        </div>
+        <div class="content">
+            <button type="button" class="collapsible">September</button>
+            <div class="container" id="container8">
+            </div>
+        </div>
+        <div class="content">
+            <button type="button" class="collapsible">October</button>
+            <div class="container" id="container9">
+            </div>
+        </div>
+        <div class="content">
+            <button type="button" class="collapsible-2">November</button>
+            <div class="container" id="container10">
+            </div>
+        </div>
+        <div class="content">
+            <button type="button" class="collapsible-2">December</button>
+            <div class="container" id="container11">
+            </div>
+        </div>
+    </div>
+    <div class="bottom-text">
+      <b>On Track</b> is a website created by <b>Emily Wang</b> to help you plan and achieve your New Year's Resolutions. Let's start fresh and make this year the best year yet!
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
